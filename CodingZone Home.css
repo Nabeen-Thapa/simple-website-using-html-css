@@ -1,0 +1,365 @@
+ *
+            {
+                margin: 0%;
+                padding: 0%;
+            }
+            body
+            {
+                background-color: rgb(52, 49, 49);
+                color: white;
+            }
+            .fixed
+            {
+                position: fixed;
+                width: 100%;
+                top: 0%;
+                background-color: rgb(201, 201, 221);
+                opacity: 2px;
+            }
+            .clear1
+            {
+                clear: both;
+            }
+            .logobar
+            {
+                margin: 0%;
+                display: inline-block;
+                height: 100px;
+                width: 21%;
+                background-color: rgb(237, 230, 230);
+            }
+            .logo,.logotext
+            {
+                float: inline-start;
+                color: black;
+                
+            }
+           .logo img
+            {
+                width: 90px;
+                height: 90px;
+                padding-top: 8px;
+                
+            }
+            .logotext
+            {
+                padding: 5px;
+                padding-top: 25px;
+            }
+            .logotext h2
+            {
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+            }
+            .logotext h3
+            {
+                padding-bottom: 20px;
+            }
+            .box li
+            {
+                list-style: none;
+                float: left;
+                font-size: 20px;
+                 
+            }
+            .box
+            {
+                display: inline-block;
+                width: 76%;
+                height: 12px;
+                padding: 10px;
+                margin: 0%;
+                margin-left: 0%;
+                margin-top: 0px;
+                padding-top: 30px;
+                padding-bottom: 50px;
+               border: 8px solid rgb(251, 249, 249);
+                 
+            }
+
+            .active,.box ul li a:hover
+            {
+                background: rgb(27, 27, 232);
+            }
+            .box li, a
+            {
+                text-decoration: none;
+                padding: 8px;
+                padding-right: 3px;
+                text-align: center;
+                color: black;
+                text-decoration: underline 2px blue; 
+            }
+            .medialogo li a img
+            {
+                margin: 0px;
+                padding: 0px;
+                height: 25px;
+                width: 25px;
+                align-content: center;
+                text-align: center;
+            }
+            .medialogo li a img:hover
+            {
+                background: rgb(27, 27, 232);  
+            }
+            .myline
+            {
+                margin: 20px;
+                text-align: center;
+                font-size: 35px;
+            }
+            .search
+            {
+                float: inline-end;
+                
+            }
+            .search input,button
+            { 
+                font-size: larger;
+                padding: 5px;
+                margin: 0px;
+               margin-top: 0px;
+            }
+            .search button
+            {
+                background-color: tomato;
+                border: none;
+                margin-right: 10px;
+            }
+            .clear2
+            {
+                clear: both;
+            }
+            .imgslider
+            {
+
+                place-items: center;
+                margin-left: 5px;
+                margin-top: 10px;
+                width: 98%;
+                height: 650px;
+                background-image: url(denish\ richai.jpg);
+                border: 5px solid rgb(13, 186, 13);
+                background-size: 100% 100%;
+                animation: changeimage 20s linear infinite;
+            }
+            @keyframes changeimage 
+            {
+               0%
+               {
+                background-image: url(face.jpg);
+               } 
+               15%
+               {
+                background-image: url(code.jpg);
+               }
+               30%
+               {
+                background-image: url(curly\ bracket.jpg);
+               }  
+               45%
+               {
+                background-image: url(imageshtml.jpg);
+               }  
+               60%
+               {
+                background-image: url(bgword.jpg);
+               }  
+               75%
+               {
+                background-image: url(laptopglass.jpg);
+               }  
+               100%
+               {
+                background-image: url(llaptop.webp);
+               }  
+            }
+            .imgfoot
+            {
+                padding-top: 15px;
+                color: white;
+                text-align: center;
+                width: 98.7%;
+                height: 60px;
+                margin-left: 5px;
+                background-color: blue;
+            }
+            .homecontent
+            {
+                margin-top: 50px;
+                text-align: center;
+                font-size: xx-large;
+                
+            }
+            .wellcome
+            {
+                margin-top: 150px;
+                text-align: center;
+                font-size: xx-large;
+                text-decoration: underline double;
+            }
+            .dr 
+            {
+                color: rgb(174, 174, 237);
+            }
+            .dr i
+            {
+                float: right;
+                color: rgb(193, 184, 209);
+                text-decoration: underline;
+            }
+            .dr a i:hover
+            {
+                background-color: rgb(71, 71, 176);
+            }
+            .wellcometext
+            {
+                text-decoration: none;
+                color: rgb(186, 186, 236);
+                margin-bottom: 40px;
+                margin-top: 450px;
+            }
+            .centercontent,.leftcontent,.rightcontent
+            {
+                float: inline-start;
+            }
+            .leftcontent
+            {
+                text-align: left;
+                margin: 20px;
+                font-size: large;
+                width: 470px;
+                border: 2px solid rgb(246, 194, 148);
+            }
+            .rightcontent
+            {
+                text-align: left;
+                margin: 18px;
+                width: 470px;
+                font-size: large;
+                border: 2px solid rgb(246, 194, 148);
+            }
+            .centercontent
+            {
+                background-color: aqua;
+                height: 380px;
+                width: 265px;
+                text-align: center;
+                font-size: medium;
+            }
+            .centercontent img
+            {
+                height: 300px;
+                width: 245px;
+            }
+            .clear
+            {
+                clear: both;
+            }
+            .quickvisit
+            {
+                width: 100%;
+                height: 480px;
+                background-color: rgb(20, 20, 72); 
+                font-size: 40px;
+                margin-top: 100px;
+                text-align: left;
+            }
+            .quick
+            {
+                text-align: center;
+                margin-bottom: 30px;
+            }   
+            .titlevisit,.quickcontact,.info
+            {
+                float: inline-start;
+            }
+            .titlevisit li a:hover 
+            {
+                background-color: rgb(94, 195, 195);
+                height: 10px;
+            }
+            .quickcontact a:hover
+            {
+                background-color: rgb(95, 189, 189);
+                height: 10px;
+            }
+            .titlevisit
+            {
+                font-size: x-large;
+                margin-right: 50px;
+            }
+            .titlevisit li a
+            {
+                text-decoration: none;
+                padding-bottom: 10px;
+                font-size: large;
+                padding-left: 20px;
+                color: white;
+            }
+            .info
+            {
+                font-size: large;
+                margin-right: 50px;
+                
+            }
+            .map img:hover
+            {
+                background-color: aqua;
+            }
+            .map img
+            {
+               height: 40px;
+               width: 40px; 
+            }
+            .map a
+            {
+                color: white;
+            }
+            .quickcontact
+            {
+                font-size: x-large;
+                margin-right: 50px;
+            }
+            .quickcontact a
+            {
+                padding-bottom: 10px;
+                font-size: large;
+                color: white;
+            }
+            .feedback 
+            {
+                font-size: large;
+                padding-top: 40px;
+            }
+            .feedback fieldset
+            {
+                width: 450px;
+            }
+            .feedback legend
+            {
+                margin-left: 30px;
+            }
+            .quickmedia
+            {
+                list-style-type: none;
+                margin-left: 450px;
+            }
+            .quickmedia li:hover
+            {
+                background-color: aqua;
+            }
+            .quickmedia li
+            {
+                margin-left: 15px;   
+                text-decoration: none;
+                padding-right: 7px;
+                float: inline-start;
+        
+            }
+            .quickmedia li a img
+            {
+                height: 30px;
+                width: 30px;
+            }

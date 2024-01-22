@@ -1,0 +1,348 @@
+*
+        {
+            margin: 0%;
+            padding: 0%;
+        }
+        .logotext
+        {
+            padding-top: 20px;
+            
+        }
+        .logotext h2
+        {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .logotext h3
+        {
+            padding-bottom: 20px;
+        }
+        .sliderbox
+        {
+            height: 100px;
+            width: 100%;
+            margin: 0px;
+            background-color: rgb(237, 230, 230);
+        }
+        .logo,.logotext,.shower,.slider
+        {
+            float: inline-start;
+        }
+        .logo img
+        {
+            width: 150px;
+            height: 90px;
+            padding: 5px;
+            padding-left: 50px;
+        }
+        .shower img
+        {
+            height: 100px;
+            width: 100px;
+            padding-left: 100px;
+
+        }
+        .slider
+        {
+            place-items: center;
+            width: 30%;
+            height: 100px;
+            background-image: url(denish\ richai.jpg);
+            border: 1px solid rgb(13, 186, 13);
+            background-size: 100% 100%;
+            animation: changeimage 20s linear infinite;
+        }
+        @keyframes changeimage 
+            {
+               0%
+               {
+                background-image: url(face.jpg);
+               } 
+               15%
+               {
+                background-image: url(code.jpg);
+               }
+               30%
+               {
+                background-image: url(curly\ bracket.jpg);
+               }  
+               45%
+               {
+                background-image: url(imageshtml.jpg);
+               }  
+               60%
+               {
+                background-image: url(bgword.jpg);
+               }  
+               75%
+               {
+                background-image: url(laptopglass.jpg);
+               }  
+               100%
+               {
+                background-image: url(llaptop.webp);
+               }  
+            }
+        .owner
+        {
+            font-size: x-large;
+            text-align: center;
+            float: inline-end;
+            width: 200px;
+            height: 60px;
+            padding-top: 5px;
+            background-color: green;
+            border: 2px solid green;
+            border-radius: 15px;
+            margin-top: 13px;
+            margin-right: 50px;
+        }
+        .owner:hover
+        {
+            background: blue;
+        }
+        .box
+        {
+            width: 100%;
+            height: 12px;
+            padding: 0px;
+            margin: 0px;
+            padding-bottom: 30px;
+            background-color: hsl(0, 3%, 75%); 
+            border: 8px solid rgb(251, 249, 249);
+        }
+        .box li
+        {
+            list-style: none;
+            float: left;
+            font-size: large;
+            
+        }
+        .active,.box ul li a:hover
+        {
+            background: rgb(27, 27, 232);
+        }
+        .box li, a
+        {
+            text-decoration: none;
+            padding: 10px;
+            padding-right: 2px;
+            text-align: center;
+            color: black;
+        }
+        .active,.box ul li a img:hover
+        {
+            background: rgb(27, 27, 232);
+
+        }
+        .medialogo li a img
+        {
+            margin: 0px;
+            padding: 0px;
+            height: 20px;
+            width: 20px;
+            text-align: center;
+        }
+        .appointment li a
+        {
+            color: yellow;
+            background-color: rgb(150, 150, 221);
+            border: 2px solid blue;
+            border-radius: 15px;
+        }
+        .search
+        {
+            float: inline-end;
+        }
+        .search input,button
+        {
+            font-size: larger;
+            padding: 5px;
+            margin: 0px;
+        }
+        .search button
+        {
+            background-color: tomato;
+            border: none;
+            margin-right: 10px;
+        }
+        .about
+        {
+            background-image: url(llaptop.webp);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 100%;
+            height: 150px;
+            margin-top: 50px;
+            color:white;
+            text-align: center;
+            padding-top: 20px;
+            font-size: xx-large;
+        }
+        .photogallery
+        {
+            margin-top: 40px;
+            color: blue;
+            font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .ourexperts a img
+        {
+            height: 190px; 
+            width: 190px;
+            border: 3px solid blue; 
+           
+        }
+        .ourexperts h1
+        {
+            font-size: xx-large;
+            text-align: center;
+            text-decoration: underline double;
+            margin-bottom: 40px;
+        }
+        .zoneowner 
+        {
+            background-color: rgb(84, 84, 196);
+            height: 240px;
+            width: 220px;
+            margin: 25px; 
+            margin-left: 560px;
+            text-align: center;
+        }
+        .zoneowner a img
+        {
+            margin-top: 10px;
+        }
+        .more
+        {
+            color: blue;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .more a
+        {
+            color: blue;
+            font-size: xx-large; 
+        }
+        .more a:hover
+        {
+            background-color: aqua;  
+        }
+        .clear
+        {
+            clear: both;
+        }
+        .quickvisit
+        {
+            width: 100%;
+            height: 500px;
+            background-color: blue; 
+            font-size: 40px;
+            margin-top: 100px;
+            text-align: left;
+            color: black;
+        }
+        .quick
+        {
+            text-align: center;
+            margin-bottom: 30px;
+        }   
+        .titlevisit,.quickcontact,.info
+        {
+            float: inline-start;
+        }
+        .titlevisit li a:hover 
+        {
+            background-color: rgb(127, 127, 237);
+            height: 10px;
+            
+        }
+        .quickcontact a:hover
+        {
+            background-color: rgb(127, 127, 237);
+            height: 10px;
+        }
+        .titlevisit
+        {
+            font-size: x-large;
+            margin-right: 50px;
+            color: black;
+            
+        }
+        .titlevisit li a
+        {
+            text-decoration: none;
+            padding-bottom: 10px;
+            font-size: large;
+            padding-left: 20px;
+            color: white;
+            
+        }
+        .info
+        {
+            font-size: large;
+            margin-right: 50px;
+            color: black;
+        }
+        
+        .map img
+        {
+           height: 40px;
+           width: 40px; 
+        }
+        .map a:hover
+        {
+            background-color: rgb(169, 179, 179);
+        }
+        .map a 
+        {
+            color: white;
+        }
+        .quickcontact
+        {
+            font-size: x-large;
+            margin-right: 50px;
+            color: black;
+        }
+        .quickcontact a
+        {
+            padding-bottom: 10px;
+            font-size: large;
+            color: white;
+        }
+        .feedback 
+        {
+            font-size: large;
+            padding-top: 40px;
+        }
+        .feedback fieldset
+        {
+            width: 450px;
+        }
+        .feedback legend
+        {
+            margin-left: 30px;
+        }
+        .quickmedia
+        {
+            list-style-type: none;
+            margin-left: 450px;
+        }
+        .quickmedia li:hover
+        {
+            background-color: aqua;
+        }
+        .quickmedia li
+        {
+            margin-left: 15px;   
+            text-decoration: none;
+            padding-right: 7px;
+            float: inline-start;
+    
+        }
+        .quickmedia li a img
+        {
+            height: 30px;
+            width: 30px;
+        }

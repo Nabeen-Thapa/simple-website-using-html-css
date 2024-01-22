@@ -1,0 +1,57 @@
+
+.title a
+			{
+				
+				border: 2px solid blue;
+				height: 30px;
+				color: black;
+				font-size: x-large;
+				padding: 5px;
+				text-decoration: none;
+                margin-bottom: 50px;
+				
+			}.title a:hover
+			{
+				background-color: rgb(97, 97, 236);
+			}
+            .form
+            {
+                margin-top: 20px;
+            }
+            .form fieldset
+            {
+                margin-top: 10px;
+            }
+            .form fieldset input
+            {
+                margin-left: 50px;
+                
+            }
+            .register
+            {
+                margin-left: 70%;
+            }
+           .register input
+           {
+            color: white;
+            font-size: 20px;
+            background-color: rgb(17, 17, 179);
+            margin: 5px;
+            float: inline-start;
+           }
+           .clear
+           {
+            margin-left: 10%;
+           }
+           .clear input
+           {
+            color: white;
+            background-color: rgb(238, 13, 13);
+            font-size: 20px;
+            margin: 5px;
+            float: inline-start;
+           }
+           legend
+           {
+               margin-left: 500px;
+           }

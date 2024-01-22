@@ -1,0 +1,31 @@
+.title a
+			{
+				margin: 0%;
+				padding: 0%;
+				border: 2px solid blue;
+				height: 30px;
+				color: black;
+				font-size: x-large;
+				padding: 5px;
+				float: inline-start;
+				text-decoration: none;
+				
+			}.title a:hover
+			{
+				background-color: rgb(97, 97, 236);
+			}
+			.gallery
+			{
+				width:480px;
+				text-decoration: 5px underline double;
+				margin-left: 350px;
+				font-size: 50px;
+				margin-bottom: 50px;
+			}
+			a img 
+			{
+				height: 150px;
+				width: 150px;
+				border: 3px solid;
+				margin: 3px;	
+			}
